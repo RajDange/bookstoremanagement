@@ -1,0 +1,104 @@
+.adminprd1{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    margin: auto;
+    border: 1px solid;
+    border-radius: 10px;
+    text-align: center;
+    padding: 40px;
+    background-color: #e6e1e1;
+}
+.adminprd1 .box{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border: 1px solid rgb(82, 94, 97);
+    padding: 13px ;
+}
+.formbtn{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    background-color: #ffffff;
+    border: 1px solid rgb(82, 94, 97);
+    border-radius: 5px;
+    padding: 10px 30px 10px 30px;
+    margin-bottom:40px
+    
+}
+.formbtn:hover{
+    background-color: black;
+    color: white;
+    transition: 0.4s;
+}
+.admbtn{
+    background-color: #8a3bd4;
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 7px;
+    color: white;
+    text-transform: capitalize;
+}
+.admbtn:hover{
+    background-color: black;
+    color: white;
+    transition: 0.4s;
+}
+.show-books{
+    padding-top: 30px;
+}
+.show-books .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 20rem);
+    justify-content: center;
+    gap:1.5rem;
+    max-width: 1200px;
+    margin:0 auto;
+    align-items: flex-start;
+    padding-bottom: 30px;
+}
+.show-books .box-container .box{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;   
+    text-align: center;
+    border-radius: .5rem;
+    border:1px solid;
+    background-color: white;
+}
+ 
+.show-books .box-container .box .img{
+    height: 10rem;
+}
+ 
+.show-books .box-container .box .name{
+    margin-top: 10px;
+    font-size: 25px;
+    color:black;
+}
+ 
+.show-books .box-container .box .price{
+    padding: 10px 0px 10px ;
+    font-size: 25px;
+    color:rgb(107, 47, 219);
+}
+.delete-btn{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;   
+    color: white;
+    border-radius: 6px;
+    padding: 7px;
+    background-color: rgb(214, 29, 29);
+    font-size: 20px;
+    
+ }
+ .delete-btn:hover{
+     background-color: black;
+     
+     transition: 0.5s;
+ }
+ 
+#admpan{
+    text-shadow: 1.5px 1.5px #9c9a9a;
+    font-size: 20px;
+}
+#admpan:hover{
+    color: greenyellow;
+    
+}
